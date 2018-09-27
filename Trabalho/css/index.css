@@ -1,0 +1,210 @@
+@charset "UTF-8";
+.cabecalho {
+		height: 130px;
+		border-style: dotted;
+		margin:1px
+	}
+	.image{
+		border-bottom: 50%;
+	}
+	.bdy {
+		background-color: #e6e6e6;
+	}
+	
+	ul {
+		background-color: #333;
+
+	}
+	#menu{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		position: sticky;
+		top: 0;
+		
+	}
+	
+	li {
+		float: left;
+	}
+	
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		background-color: #111;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	.search button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    border: 5px solid green;
+    background-color: green;
+    text-transform: uppercase; 
+}/*
+	.search img.logo {
+		height: 10px;
+		width: 300px;
+		margin: 20px;
+		float: left;
+	}*/
+	#Pesquisa{
+		display: inline-flex;
+		margin-left: 20%;
+	}
+	
+
+	/*
+	input[type=text] {
+		margin-left: 32%;
+		width: 190px;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+		background-color: #cccccc;
+		background-position: 10px 10px;
+		background-repeat: no-repeat;
+		padding: 12px 20px 12px 40px;
+		transition: width 1.4s ease-in-out;		
+	}
+	
+	input[type=text]:focus {
+		width: 28%;
+	}*/
+	.panel {
+    background-color: white;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0%;
+	}	
+
+	.panel .card .profile-name {
+		color: black;
+	}
+
+	.panel .card .profile-picture {
+		height: 100px;
+		width: 100px;
+		border-radius: 5%;
+	}
+
+	.panel .social ul li {
+		display: inline;
+	}
+
+	.card {
+		margin: 15px;
+		border: 2px solid black;
+		border-radius: 30px;
+		width: 200px;
+		display: inline-block;
+		/* float: left; */
+	}
+	.row{
+		display: flex;
+		padding-left: 10px;
+	}
+	.remove{
+		width: 200px;
+		margin-bottom: 5px;
+		margin-top: 4px;
+	}
+	/*footer*/
+	.footer-distributed {
+    background-color: #292c2f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+	font-size: 18px;
+    font-weight: bold;
+	color: aliceblue;
+	text-align: left;
+    font: normal 16px sans-serif;
+	}
+	a:visited {
+		color: white;
+	}
+	a:link {
+		color: white;
+	}
+	a:active {
+		color: blue;
+	}
+	a:hover {
+		color: hotpink;
+	}
+	input[type=text], input[type=password], input[type=email] {
+		width: 96%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #f1f1f1;
+	}
+
+	input[type=text]:focus, input[type=password]:focus {
+		background-color: #ddd;
+		outline: none;
+	}
+	input.input-search{
+		margin-left: 32%;
+		width: 190px;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+		background-color: #cccccc;
+		background-position: 10px 10px;
+		background-repeat: no-repeat;
+		padding: 12px 20px 12px 40px;
+		transition: width 1.4s ease-in-out;	
+		
+	}
+	input.input-search:focus{
+			width: 28%;
+	}
+	button:hover {
+		opacity:1;
+	}
+
+	/* Extra styles for the cancel button */
+	.cancelbtn {
+		padding: 14px 20px;
+		background-color: #f44336;
+	}
+
+	/* Float cancel and signup buttons and add an equal width */
+	.cancelbtn, .signupbtn {
+	  float: left;
+	  width: 50%;
+	}
+
+	button {
+		background-color: #4CAF50;
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		opacity: 0.9;
+	}

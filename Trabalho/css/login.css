@@ -1,0 +1,11 @@
+	
+.wrap-login100 {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+	padding-right: 55px;
+	padding-left: 55px;
+	padding-top: 65px;
+	box-sizing: border-box;
+}
