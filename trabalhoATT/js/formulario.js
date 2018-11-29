@@ -6,13 +6,12 @@ function addLivro(event) {
     event.preventDefault();
     event.stopPropagation();
     var formulario = document.forms[0];
-
     current.nome = formulario.nome.value;
     current.descricao = formulario.descricao.value;
     current.generos = current.generos.map(function(h) { return { nome: h }});
     current.sobreMim = formulario.sobreMim.value;
 
-    Resume.add(current);
+    Livro.add(current);
     toastr.success("O novo curriculo foi adicionado!", "Sucesso!");//Notificação na direita em cima da tela
     resetForm(formulario);
 }
