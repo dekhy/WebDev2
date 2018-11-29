@@ -1,0 +1,35 @@
+body {
+    margin: 0 10%;
+}
+
+.resume-panel {
+    text-align: center;
+}
+
+.logo {
+    max-width: 300px;
+    margin: 30px;
+}
+
+.thumbnail img {
+    max-width: 218px;
+    max-height: 218px;
+}
+
+.resume-panel #search-result {
+    margin-top: 10px;
+}
+
+.resume-panel .loading {
+    font-size: 35px;
+    margin-top: 20px;
+    color: #378eff;
+}
+
+.resume-panel .progress {
+    height: 5px;
+}
+
+.btn-filter {
+    cursor: pointer;
+}
